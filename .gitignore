@@ -1,0 +1,14 @@
+# Security
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Memory Banks (Block all real data, allow dummy files)
+data/memory/short_term/*
+!data/memory/short_term/spectr_session_map.md
+!data/memory/short_term/current_session_context.md
+
+# Long Term Archives
+data/memory/long_term/*
